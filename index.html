@@ -26,6 +26,13 @@
         <title>Hello World</title>
     </head>
     <body>
+
+        <div class='header'><h1>Home</h1></div>
+        <div class='search-view'>
+            <input class='search-key' type="text"/>
+            <ul class='employee-list'></ul>
+        </div>
+
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
@@ -33,8 +40,15 @@
                 <p class="event received">Device is Ready</p>
             </div>
         </div>
+
+        <script type="text/javascript" src="lib/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="js/storage/memory-store.js"></script>
+        <!--<script type="text/javascript" src="js/storage/ls-store.js"></script>
+        <script type="text/javascript" src="js/storage/websql-store.js"></script>-->
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+
         <script type="text/javascript">
             app.initialize();
         </script>
