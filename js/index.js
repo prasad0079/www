@@ -47,7 +47,8 @@ var app = {
         //Start of the custom code execution
         var self = this;
         this.store = new MemoryStore(function(){
-            self.showAlert('Store initialized', 'info');
+            //self.showAlert('Store initialized', 'info');
+            self.renderHomeView();
         });
         /*this.store = new LocalStorageStore(function(){
          self.showAlert('Store initialized', 'info');
@@ -79,5 +80,17 @@ var app = {
         }else{
             alert(title ? (title + ": " + msg) : msg);
         }
+    },
+
+    renderHomeView: function(){
+        var html =
+                "<div class='header'><h1>Home</h1></div>" +
+                "<div class='search-view'>" +
+                "<input class='search-key'/>" +
+                "<ul class='employee-list'></ul>" +
+                "</div>";
+
+        $('body').html(html);
+
     }
 };
