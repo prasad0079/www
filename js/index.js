@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        //this.bodyInit();
     },
     // Bind Event Listeners
     //
@@ -44,19 +45,7 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        //Start of the custom code execution
-        var self = this;
-        this.store = new MemoryStore(function(){
-            //self.showAlert('Store initialized', 'info');
-            self.renderHomeView();
-        });
-        /*this.store = new LocalStorageStore(function(){
-         self.showAlert('Store initialized', 'info');
-         });
-         this.store = new WebSqlStore(function(){
-         self.showAlert('Store initialized', 'info');
-         }); */
-        //$('.search-key').on('keyup', $.proxy(this.findByName, this));
+        this.bodyInit();
     },
 
     findByName: function() {
@@ -91,6 +80,21 @@ var app = {
                 "</div>";
 
         $('body').html(html);
+        $('.search-key').on('keyup', $.proxy(this.findByName, this));
+    },
 
+    bodyInit:function(){
+        //Start of the custom code execution
+        var self = this;
+        this.store = new MemoryStore(function(){
+            //self.showAlert('Store initialized', 'info');
+            self.renderHomeView();
+        });
+        /*this.store = new LocalStorageStore(function(){
+         self.showAlert('Store initialized', 'info');
+         });
+         this.store = new WebSqlStore(function(){
+         self.showAlert('Store initialized', 'info');
+         }); */
     }
 };
