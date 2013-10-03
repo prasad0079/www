@@ -71,11 +71,15 @@ var app = {
             }
         });
     },
+    alertCallBack: function(){
+        console.log("alert call back function called")
+    },
+
     showAlert: function(msg, title){
         alert("system alert");
-        navigator.notification.alert("Native alert", null, "System.... Alert", "OK");
+        navigator.notification.alert("Native alert", this.alertCallBack, "System.... Alert", "OK");
         if(navigator.notification){
-            navigator.notification.alert(message, null, title, 'OK');
+            navigator.notification.alert(message, this.alertCallBack, title, 'OK');
         }else{
             alert(title ? (title + ": " + msg) : msg);
         }
