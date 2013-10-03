@@ -20,18 +20,6 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-
-        var self = this;
-        this.store = new MemoryStore(function(){
-            self.showAlert('Store initialized', 'info');
-        });
-        /*this.store = new LocalStorageStore(function(){
-            self.showAlert('Store initialized', 'info');
-        });
-        this.store = new WebSqlStore(function(){
-            self.showAlert('Store initialized', 'info');
-        }); */
-        $('.search-key').on('keyup', $.proxy(this.findByName, this));
     },
     // Bind Event Listeners
     //
@@ -56,13 +44,21 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
-        alert("Received Event....");
-        navigator.notification.alert("Recieved Event.. ", this.alertCallBack, "Success", "OK");
+        //Start of the custom code execution
+        var self = this;
+        this.store = new MemoryStore(function(){
+            self.showAlert('Store initialized', 'info');
+        });
+        /*this.store = new LocalStorageStore(function(){
+         self.showAlert('Store initialized', 'info');
+         });
+         this.store = new WebSqlStore(function(){
+         self.showAlert('Store initialized', 'info');
+         }); */
+        $('.search-key').on('keyup', $.proxy(this.findByName, this));
     },
 
     findByName: function() {
-        console.log('findByName');
         this.store.findByName($('.search-key').val(), function(employees) {
             var l = employees.length;
             var e;
@@ -74,11 +70,10 @@ var app = {
         });
     },
     alertCallBack: function(){
-        console.log("alert call back function called")
+        //console.log("alert call back function called")
     },
 
     showAlert: function(msg, title){
-        alert("system alert");
         navigator.notification.alert("Native alert", this.alertCallBack, "System.... Alert", "OK");
         if(navigator.notification){
             navigator.notification.alert(message, this.alertCallBack, title, 'OK');
