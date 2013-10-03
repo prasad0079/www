@@ -56,7 +56,7 @@ var app = {
          this.store = new WebSqlStore(function(){
          self.showAlert('Store initialized', 'info');
          }); */
-        $('.search-key').on('keyup', $.proxy(this.findByName, this));
+        //$('.search-key').on('keyup', $.proxy(this.findByName, this));
     },
 
     findByName: function() {
