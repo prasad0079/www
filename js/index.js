@@ -74,7 +74,6 @@ var app = {
     },
 
     showAlert: function(msg, title){
-        navigator.notification.alert("Native alert", this.alertCallBack, "System.... Alert", "OK");
         if(navigator.notification){
             navigator.notification.alert(message, this.alertCallBack, title, 'OK');
         }else{
