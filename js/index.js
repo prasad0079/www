@@ -57,6 +57,8 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+        alert("Received Event....");
+        navigator.notification.alert("Recieved Event.. ", this.alertCallBack, "Success", "OK");
     },
 
     findByName: function() {
