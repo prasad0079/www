@@ -20,6 +20,9 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        this.homeTpl = Handlebars.compile($("#home-tpl").html());
+        this.employeeLiTpl = Handlebars.compile($("employee-li-tpl").html());
+
         //this.bodyInit();
     },
     // Bind Event Listeners
@@ -49,7 +52,7 @@ var app = {
     },
 
     findByName: function() {
-        this.store.findByName($('.search-key').val(), function(employees) {
+        /*this.store.findByName($('.search-key').val(), function(employees) {
             var l = employees.length;
             var e;
             $('.employee-list').empty();
@@ -57,7 +60,12 @@ var app = {
                 e = employees[i];
                 $('.employee-list').append('<li><a href="#employees/' + e.id + '">' + e.firstName + ' ' + e.lastName + '</a></li>');
             }
-        });
+        });*/
+
+        var self = this;
+        this.store.findByName($('.search-key').val(), function(employees){
+            $('.employee-list').html(self.employeeLiTpl(employees));
+        })
     },
     alertCallBack: function(){
         //console.log("alert call back function called")
@@ -72,7 +80,7 @@ var app = {
     },
 
     renderHomeView: function(){
-        var html =
+        /*var html =
                 "<div class='header'><h1>Home</h1></div>" +
                 "<div class='search-view'>" +
                 "<input class='search-key'/>" +
@@ -80,6 +88,9 @@ var app = {
                 "</div>";
 
         $('body').html(html);
+        $('.search-key').on('keyup', $.proxy(this.findByName, this));
+        */
+        $('body').html(this.homeTpl);
         $('.search-key').on('keyup', $.proxy(this.findByName, this));
     },
 
@@ -90,6 +101,10 @@ var app = {
             //self.showAlert('Store initialized', 'info');
             self.renderHomeView();
         });
+
+
+
+
         /*this.store = new LocalStorageStore(function(){
          self.showAlert('Store initialized', 'info');
          });
