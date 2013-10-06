@@ -25,16 +25,7 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
     </head>
-    <body onload="onBodyLoad()">
-
-        <!--<div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>-->
-
+    <body>
         <script id="home-tpl" type="text/x-handlebars-template">
             <div class='header'><h1>Home</h1></div>
             <div class='search-bar'><input class="search-key" type="text"/></div>
@@ -56,11 +47,7 @@
         <script type="text/javascript" src="js/index.js"></script>
 
         <script type="text/javascript">
-
-            onBodyLoad = function(){
-                app.initialize();
-            }
-
+            app.initialize();
         </script>
     </body>
 </html>
