@@ -20,7 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-        //this.bodyInit();
+        this.bodyInit();
     },
     // Bind Event Listeners
     //
@@ -47,7 +47,28 @@ var app = {
 
         //this.homeTpl = Handlebars.compile($("#home-tpl").html());
         //this.employeeLiTpl = Handlebars.compile($("employee-li-tpl").html());
-        this.bodyInit();
+        //this.bodyInit();
+    },
+
+    registerEvents: function(){
+        var self = this;
+        if(document.documentElement.hasOwnProperty('ontouchstart')){
+            $('body').on('touchstart', 'a', function(event){
+              $(event.target).addClass('tappable-active');
+            });
+
+            $('body').on('touchend', 'a', function(event){
+                $(event.target).removeClass('tappable-active');
+            })
+        }else{
+            $('body').on('mousedown', 'a', function(event){
+                $(event.target).addClass('tappable-active');
+            });
+
+            $('body').on('mouseup','a',function(event){
+                $(event.target).removeClass('tappable-active');
+            });
+        }
     },
 
     /*findByName: function() {
@@ -86,6 +107,7 @@ var app = {
         this.store = new MemoryStore(function(){
             //self.showAlert('Store initialized', 'info');
             //self.renderHomeView();
+            self.registerEvents();
             $('body').html(new HomeView(self.store).render().el);
         });
 
