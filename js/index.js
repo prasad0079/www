@@ -50,22 +50,12 @@ var app = {
         this.bodyInit();
     },
 
-    findByName: function() {
-        /*this.store.findByName($('.search-key').val(), function(employees) {
-            var l = employees.length;
-            var e;
-            $('.employee-list').empty();
-            for (var i=0; i<l; i++) {
-                e = employees[i];
-                $('.employee-list').append('<li><a href="#employees/' + e.id + '">' + e.firstName + ' ' + e.lastName + '</a></li>');
-            }
-        });*/
-
+    /*findByName: function() {
         var self = this;
         this.store.findByName($('.search-key').val(), function(employees){
             $('.employee-list').html(self.employeeLiTpl(employees));
         })
-    },
+    },*/
     alertCallBack: function(){
         //console.log("alert call back function called")
     },
@@ -78,36 +68,36 @@ var app = {
         }
     },
 
-    renderHomeView: function(){
-        /*var html =
-                "<div class='header'><h1>Home</h1></div>" +
-                "<div class='search-view'>" +
-                "<input class='search-key'/>" +
-                "<ul class='employee-list'></ul>" +
-                "</div>";
-
-        $('body').html(html);
-        $('.search-key').on('keyup', $.proxy(this.findByName, this));
-        */
+    /*renderHomeView: function(){
         $('body').html(this.homeTpl);
         $('.search-key').on('keyup', $.proxy(this.findByName, this));
-    },
+    },*/
 
     bodyInit:function(){
         //Start of the custom code execution
+        /*this.homeTpl = Handlebars.compile($("#home-tpl").html());
+        this.employeeLiTpl = Handlebars.compile($("#employee-li-tpl").html());
+        */
+
+        //alert("this.homeTpl = "+this.homeTpl);
+        //alert("this.employeeLiTpl = "+this.employeeLiTpl);
+
         var self = this;
         this.store = new MemoryStore(function(){
             //self.showAlert('Store initialized', 'info');
-            self.renderHomeView();
+            //self.renderHomeView();
+            $('body').html(new HomeView(self.store).render().el);
         });
 
 
 
 
-        /*this.store = new LocalStorageStore(function(){
-         self.showAlert('Store initialized', 'info');
-         });
-         this.store = new WebSqlStore(function(){
+         /*this.store = new LocalStorageStore(function(){
+            //self.showAlert('Store initialized', 'info');
+             self.renderHomeView();
+         });*/
+
+         /*this.store = new WebSqlStore(function(){
          self.showAlert('Store initialized', 'info');
          }); */
     }

@@ -25,11 +25,11 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
     </head>
-    <body>
+    <body onload="onBodyLoad()">
         <script id="home-tpl" type="text/x-handlebars-template">
             <div class='header'><h1>Home</h1></div>
             <div class='search-bar'><input class="search-key" type="text"/></div>
-            <ul class="employee-list"></ul>
+            <div class='scroll'><ul class="employee-list"></ul></div>
         </script>
 
         <script id="employee-li-tpl" type="text/x-handlebars-template">
@@ -40,14 +40,17 @@
 
         <script type="text/javascript" src="lib/jquery-1.8.2.min.js"></script>
         <script type="text/javascript" src="js/storage/memory-store.js"></script>
-        <!--<script type="text/javascript" src="js/storage/ls-store.js"></script>
-        <script type="text/javascript" src="js/storage/websql-store.js"></script>-->
+        <!--<script type="text/javascript" src="js/storage/ls-store.js"></script>-->
+        <!--<script type="text/javascript" src="js/storage/websql-store.js"></script>-->
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="lib/handlebars.js"></script>
+        <script type="text/javascript" src="js/HomeView.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
 
         <script type="text/javascript">
-            app.initialize();
+            function onBodyLoad(){
+                app.initialize();
+            }
         </script>
     </body>
 </html>
