@@ -1,6 +1,7 @@
 var MemoryStore = function(successCallback, errorCallback) {
 
     this.findByName = function(searchKey, callback) {
+        console.log("searchKey = "+searchKey);
         var employees = this.employees.filter(function(element) {
             var fullName = element.firstName + " " + element.lastName;
             return fullName.toLowerCase().indexOf(searchKey.toLowerCase()) > -1;

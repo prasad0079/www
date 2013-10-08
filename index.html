@@ -23,18 +23,18 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <title>Kislaya's Assignment</title>
     </head>
     <body onload="onBodyLoad()">
         <script id="home-tpl" type="text/x-handlebars-template">
             <div class='header'><h1>Home</h1></div>
-            <div class='search-bar'><input class="search-key" type="text"/></div>
+            <div class='search-bar'><input class="search-key" type="search"/></div>
             <div class='scroll'><ul class="employee-list"></ul></div>
         </script>
 
         <script id="employee-li-tpl" type="text/x-handlebars-template">
             {{#.}}
-            <li><a href="#employees/{{this.id}}">{{this.firstname}} {{this.lastname}}<br/>{{this.title}}</a> </li>
+            <li><a href="#employees/{{this.id}}">{{this.firstName}} {{this.lastName}}<br/>{{this.title}}</a> </li>
             {{/.}}
         </script>
 
@@ -46,6 +46,7 @@
         <script type="text/javascript" src="lib/handlebars.js"></script>
         <script type="text/javascript" src="lib/iscroll.js"></script>
         <script type="text/javascript" src="js/HomeView.js"></script>
+        <!--<script type="text/javascript" src="js/EmployeeView.js"></script>-->
         <script type="text/javascript" src="js/index.js"></script>
 
         <script type="text/javascript">

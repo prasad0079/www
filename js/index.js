@@ -20,7 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-        //this.bodyInit();
+        this.bodyInit();
     },
     // Bind Event Listeners
     //
@@ -47,7 +47,7 @@ var app = {
 
         //this.homeTpl = Handlebars.compile($("#home-tpl").html());
         //this.employeeLiTpl = Handlebars.compile($("employee-li-tpl").html());
-        this.bodyInit();
+        //this.bodyInit();
     },
 
     registerEvents: function(){

@@ -16,14 +16,14 @@ var HomeView = function(store){
         return this;
     };
 
-    /*this.findByName = function() {
+    this.findByName = function() {
         var self = this;
         store.findByName($('.search-key').val(), function(employees){
             $('.employee-list').html(HomeView.liTemplate(employees));
         });
-    };*/
+    };
 
-    this.findByName = function() {
+    /*this.findByName = function() {
         store.findByName($('.search-key').val(), function(employees) {
             $('.employee-list').html(HomeView.liTemplate(employees));
             if (self.iscroll) {
@@ -34,7 +34,7 @@ var HomeView = function(store){
                 self.iscroll = new iScroll($('.scroll', self.el)[0], {hScrollbar: false, vScrollbar: false });
             }
         });
-    };
+    };*/
 
     this.initialize();
 }
