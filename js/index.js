@@ -20,7 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-        //this.bodyInit();
+        this.bodyInit();
     },
     // Bind Event Listeners
     //
@@ -43,6 +43,20 @@ var app = {
         this.bodyInit();
     },
 
+    route: function() {
+        var hash = window.location.hash;
+        if (!hash) {
+            $('body').html(new HomeView(this.store).render().el);
+            return;
+        }
+        var match = hash.match(app.detailsURL);
+        if (match) {
+            this.store.findById(Number(match[1]), function(employee) {
+                $('body').html(new EmployeeView(employee).render().el);
+            });
+        }
+    },
+
     registerEvents: function(){
         var self = this;
         if(document.documentElement.hasOwnProperty('ontouchstart')){
@@ -52,7 +66,8 @@ var app = {
 
             $('body').on('touchend', 'a', function(event){
                 $(event.target).removeClass('tappable-active');
-            })
+            });
+
         }else{
             $('body').on('mousedown', 'a', function(event){
                 $(event.target).addClass('tappable-active');
@@ -62,6 +77,7 @@ var app = {
                 $(event.target).removeClass('tappable-active');
             });
         }
+        $('window').on('hashchange', $.proxy(this.route, this));
     },
 
     /*findByName: function() {
@@ -94,11 +110,14 @@ var app = {
         */
 
         var self = this;
+        this.detailsURL = /^#employees\/(\d{1,})/;
+        self.registerEvents();
         this.store = new MemoryStore(function(){
             //self.showAlert('Store initialized', 'info');
             //self.renderHomeView();
-            self.registerEvents();
-            $('body').html(new HomeView(self.store).render().el);
+
+            //$('body').html(new HomeView(self.store).render().el);
+            self.route();
         });
 
          /*this.store = new LocalStorageStore(function(){
