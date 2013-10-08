@@ -19,7 +19,6 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        alert("initialize called");
         this.bindEvents();
         //this.bodyInit();
     },
@@ -28,7 +27,6 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
-        alert("bind events called")
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
@@ -36,22 +34,12 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        alert("ondevice ready called")
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        alert("received event called")
-        /*var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-        */
         //this.homeTpl = Handlebars.compile($("#home-tpl").html());
         //this.employeeLiTpl = Handlebars.compile($("employee-li-tpl").html());
-        alert("initialising body")
         this.bodyInit();
     },
 
@@ -105,19 +93,13 @@ var app = {
         this.employeeLiTpl = Handlebars.compile($("#employee-li-tpl").html());
         */
 
-        //alert("this.homeTpl = "+this.homeTpl);
-        //alert("this.employeeLiTpl = "+this.employeeLiTpl);
-
         var self = this;
         this.store = new MemoryStore(function(){
             //self.showAlert('Store initialized', 'info');
             //self.renderHomeView();
-            //self.registerEvents();
+            self.registerEvents();
             $('body').html(new HomeView(self.store).render().el);
         });
-
-
-
 
          /*this.store = new LocalStorageStore(function(){
             //self.showAlert('Store initialized', 'info');
