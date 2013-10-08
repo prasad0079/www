@@ -47,6 +47,7 @@ var app = {
 
         //this.homeTpl = Handlebars.compile($("#home-tpl").html());
         //this.employeeLiTpl = Handlebars.compile($("employee-li-tpl").html());
+        alert("initialising body")
         this.bodyInit();
     },
 
@@ -107,7 +108,7 @@ var app = {
         this.store = new MemoryStore(function(){
             //self.showAlert('Store initialized', 'info');
             //self.renderHomeView();
-            self.registerEvents();
+            //self.registerEvents();
             $('body').html(new HomeView(self.store).render().el);
         });
 
