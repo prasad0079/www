@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,6 +14,7 @@
     <file path="/index.css" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381224558148" ignored="false" />
     <file path="/memory-store.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381251237153" ignored="false" />
     <file path="/EmployeeView.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381251756774" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381298538920" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="75" selection-start="3837" selection-end="3837" vertical-scroll-proportion="1.8199719">
+            <state line="84" column="16" selection-start="3069" selection-end="3069" vertical-scroll-proportion="0.5780591">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -572,7 +573,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="75" selection-start="3837" selection-end="3837" vertical-scroll-proportion="1.8199719">
+        <state line="84" column="16" selection-start="3069" selection-end="3069" vertical-scroll-proportion="0.5780591">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

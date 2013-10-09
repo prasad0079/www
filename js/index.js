@@ -82,7 +82,7 @@ var app = {
                 $(event.target).removeClass('tappable-active');
             });
         }
-        $('window').on('hashchange', $.proxy(this.route, this));
+        $(window).on('hashchange', $.proxy(this.route, this));
     },
 
     /*findByName: function() {
@@ -116,7 +116,7 @@ var app = {
 
         var self = this;
         app.detailsURL = /^#employees\/(\d{1,})/;
-        alert("uyuyuy")
+        //alert("uyuyuy")
         self.registerEvents();
         this.store = new MemoryStore(function(){
             //self.showAlert('Store initialized', 'info');
