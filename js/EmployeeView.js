@@ -9,6 +9,7 @@
 var EmployeeView = function(employee){
     this.initialize = function(){
         this.el = $('<div/>');
+        alert("hhooo hooo")
         this.el.on('click', '.add-location-btn', this.addLocation);
         this.el.on('click', '.add-contact-btn', this.addToContacts);
     };
