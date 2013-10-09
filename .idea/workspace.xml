@@ -4,7 +4,7 @@
     <list default="true" id="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" name="Default" comment="" />
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381334365630" ignored="false" />
+    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381334567337" ignored="false" />
     <file path="/index.html" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381302491008" ignored="false" />
     <file path="/index.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381309163259" ignored="false" />
     <file path="/handlebars.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381172162520" ignored="false" />
@@ -13,7 +13,7 @@
     <file path="/memory-store.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381251237153" ignored="false" />
     <file path="/EmployeeView.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381308795759" ignored="false" />
     <file path="/config.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381304613258" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381334365068" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381334567009" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="70" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.52973723">
+            <state line="39" column="0" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.83540803">
               <folding />
             </state>
           </provider>
@@ -382,7 +382,11 @@
       <created>1381334369365</created>
       <updated>1381334369365</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="9.26pm">
+      <created>1381334571731</created>
+      <updated>1381334571731</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -575,7 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="70" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.52973723">
+        <state line="39" column="0" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.83540803">
           <folding />
         </state>
       </provider>
