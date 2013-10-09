@@ -116,6 +116,7 @@ var app = {
 
         var self = this;
         app.detailsURL = /^#employees\/(\d{1,})/;
+        alert("uyuyuy")
         self.registerEvents();
         this.store = new MemoryStore(function(){
             //self.showAlert('Store initialized', 'info');
