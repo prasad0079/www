@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" name="Default" comment="" />
+    <list default="true" id="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381310901601" ignored="false" />
+    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381311744227" ignored="false" />
     <file path="/index.html" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381302491008" ignored="false" />
     <file path="/index.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381309163259" ignored="false" />
     <file path="/handlebars.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381172162520" ignored="false" />
@@ -12,7 +14,6 @@
     <file path="/index.css" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381224558148" ignored="false" />
     <file path="/memory-store.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381251237153" ignored="false" />
     <file path="/EmployeeView.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381308795759" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381310894549" ignored="false" />
     <file path="/config.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381304613258" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
       <file leaf-file-name="EmployeeView.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="48" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.73913044">
+            <state line="42" column="85" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.41168478">
               <folding>
                 <element signature="e#0#159#0" expanded="false" />
               </folding>
@@ -436,7 +437,11 @@
       <created>1381310904523</created>
       <updated>1381310904523</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="3.12pm">
+      <created>1381311747453</created>
+      <updated>1381311747453</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -504,7 +509,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.58pm" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.12pm" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -530,6 +535,7 @@
     <MESSAGE value="2.13pm" />
     <MESSAGE value="2.30pm" />
     <MESSAGE value="2.58pm" />
+    <MESSAGE value="3.12pm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -640,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="48" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.73913044">
+        <state line="42" column="85" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.41168478">
           <folding>
             <element signature="e#0#159#0" expanded="false" />
           </folding>
