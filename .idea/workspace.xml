@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/EmployeeView.js" afterPath="$PROJECT_DIR$/js/EmployeeView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381301177814" ignored="false" />
+    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381302203418" ignored="false" />
     <file path="/index.html" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381300676492" ignored="false" />
     <file path="/index.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381296695800" ignored="false" />
     <file path="/handlebars.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381172162520" ignored="false" />
@@ -388,7 +385,11 @@
       <created>1381301181896</created>
       <updated>1381301181896</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="12.33pm">
+      <created>1381302207858</created>
+      <updated>1381302207858</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -456,7 +457,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.16pm" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.33pm" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -475,6 +476,7 @@
     <MESSAGE value="updated..3.pm" />
     <MESSAGE value="12pm" />
     <MESSAGE value="12.16pm" />
+    <MESSAGE value="12.33pm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
