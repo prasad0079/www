@@ -9,7 +9,6 @@
 var EmployeeView = function(employee){
     this.initialize = function(){
         this.el = $('<div/>');
-        alert("hhooo hooo")
         this.el.on('click', '.add-location-btn', this.addLocation);
         this.el.on('click', '.add-contact-btn', this.addToContacts);
         this.el.on('click', '.change-pic-btn', this.changePicture);
@@ -35,7 +34,7 @@ var EmployeeView = function(employee){
 
         navigator.camera.getPicture(
             function(imageData){
-                $('.employee-image',this.el).attr('src', "data:image/jpeg;base64,"+imageData);
+                $('.employee-image', this.el).attr('src', "data:image/jpeg;base64," + imageData);
             },
             function(){
                 app.showAlert("Error taking picture", "Error");
