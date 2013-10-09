@@ -119,8 +119,8 @@ var app = {
             //self.showAlert('Store initialized', 'info');
             //self.renderHomeView();
 
-            //$('body').html(new HomeView(self.store).render().el);
-            self.route();
+            $('body').html(new HomeView(self.store).render().el);
+            //self.route();
         });
 
          /*this.store = new LocalStorageStore(function(){
