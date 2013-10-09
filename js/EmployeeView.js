@@ -46,6 +46,8 @@ var EmployeeView = function(employee){
         if(!navigator.contacts){
             app.showAlert("Contacts API not supported", "Error");
             return;
+        }else{
+            app.showAlert("Contacts API supported", "Success");
         }
         var contact = navigator.contacts.create();
         contact.name = {givenName:employee.firstName, familyName:employee.lastName};
