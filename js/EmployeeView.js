@@ -34,9 +34,9 @@ var EmployeeView = function(employee){
 
         navigator.camera.getPicture(
             function(imageData){
-                app.showAlert("Picture success 1");
-                $('.employee-image', this.el).attr('src', "data:image/jpeg;base64," + imageData);
-                app.showAlert("Picture success 2");
+                //app.showAlert("Picture success 1");
+                //$('.employee-image', this.el).attr('src', "data:image/jpeg;base64," + imageData);
+                //app.showAlert("Picture success 2");
             },
             function(){
                 app.showAlert("Error taking picture", "Error");
