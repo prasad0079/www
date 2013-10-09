@@ -62,5 +62,4 @@
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
 
     <gap:plugin name="org.apache.cordova.core.camera" />
-    <gap:plugin name="org.apache.cordova.core.dialogs" />
 </widget>
