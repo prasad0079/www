@@ -44,7 +44,9 @@ var app = {
     },
 
     route: function() {
-        //alert("called");
+        alert("window - "+window);
+        alert("window.location - "+window.location);
+        alert("window.location.hash - "+window.location.hash);
         var hash = window.location.hash;
         //alert("hash = "+hash);
         if (!hash) {
@@ -119,8 +121,8 @@ var app = {
             //self.showAlert('Store initialized', 'info');
             //self.renderHomeView();
 
-            $('body').html(new HomeView(self.store).render().el);
-            //self.route();
+            //$('body').html(new HomeView(self.store).render().el);
+            self.route();
         });
 
          /*this.store = new LocalStorageStore(function(){
