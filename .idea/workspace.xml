@@ -4,15 +4,15 @@
     <list default="true" id="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" name="Default" comment="" />
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381302505477" ignored="false" />
+    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381303174177" ignored="false" />
     <file path="/index.html" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381302491008" ignored="false" />
     <file path="/index.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381296695800" ignored="false" />
     <file path="/handlebars.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381172162520" ignored="false" />
     <file path="/HomeView.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381209697040" ignored="false" />
     <file path="/index.css" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381224558148" ignored="false" />
     <file path="/memory-store.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381251237153" ignored="false" />
-    <file path="/EmployeeView.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381301892178" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381302500084" ignored="false" />
+    <file path="/EmployeeView.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381303142870" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381303167845" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="52" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.72453374">
+            <state line="62" column="52" selection-start="3251" selection-end="3251" vertical-scroll-proportion="-19.423077">
               <folding />
             </state>
           </provider>
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeView.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EmployeeView.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="45" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+            <state line="55" column="49" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.79211956">
               <folding>
                 <element signature="e#0#159#0" expanded="false" />
               </folding>
@@ -114,9 +114,9 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/js/HomeView.js" />
         <option value="$PROJECT_DIR$/js/storage/memory-store.js" />
-        <option value="$PROJECT_DIR$/js/EmployeeView.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/EmployeeView.js" />
       </list>
     </option>
   </component>
@@ -392,7 +392,11 @@
       <created>1381302510538</created>
       <updated>1381302510538</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="12.49pm">
+      <created>1381303177564</created>
+      <updated>1381303177564</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -460,7 +464,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.38pm" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.49pm" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -481,6 +485,7 @@
     <MESSAGE value="12.16pm" />
     <MESSAGE value="12.33pm" />
     <MESSAGE value="12.38pm" />
+    <MESSAGE value="12.49pm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -573,15 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#159#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="8" selection-start="913" selection-end="913" vertical-scroll-proportion="-14.96">
@@ -593,8 +589,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="52" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.72453374">
+        <state line="62" column="52" selection-start="3251" selection-end="3251" vertical-scroll-proportion="-19.423077">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/EmployeeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="49" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.79211956">
+          <folding>
+            <element signature="e#0#159#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
