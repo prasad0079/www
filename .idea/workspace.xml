@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" name="Default" comment="" />
+    <list default="true" id="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381334567337" ignored="false" />
+    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381334757202" ignored="false" />
     <file path="/index.html" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381302491008" ignored="false" />
     <file path="/index.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381309163259" ignored="false" />
     <file path="/handlebars.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381172162520" ignored="false" />
@@ -13,7 +15,6 @@
     <file path="/memory-store.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381251237153" ignored="false" />
     <file path="/EmployeeView.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381308795759" ignored="false" />
     <file path="/config.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381304613258" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381334567009" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.83540803">
+            <state line="22" column="84" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.24757953">
               <folding />
             </state>
           </provider>
@@ -173,6 +174,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,11 +441,15 @@
       <created>1381334571731</created>
       <updated>1381334571731</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="9.26pm">
+      <created>1381334760806</created>
+      <updated>1381334760806</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1350" height="908" extended-state="6" />
+    <frame x="-4" y="-4" width="1350" height="908" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -579,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.83540803">
+        <state line="22" column="84" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.24757953">
           <folding />
         </state>
       </provider>
