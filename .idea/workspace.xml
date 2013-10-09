@@ -6,7 +6,7 @@
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381312253823" ignored="false" />
+    <file path="/Dummy.txt" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381312588522" ignored="false" />
     <file path="/index.html" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381302491008" ignored="false" />
     <file path="/index.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381309163259" ignored="false" />
     <file path="/handlebars.js" changelist="5f9f0c2d-0af7-41a1-b6c0-0c1b0267a4f8" time="1381172162520" ignored="false" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="65" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.2682927">
+            <state line="74" column="57" selection-start="3844" selection-end="3844" vertical-scroll-proportion="0.7804878">
               <folding />
             </state>
           </provider>
@@ -375,7 +375,11 @@
       <created>1381312256929</created>
       <updated>1381312256929</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="3.20pm">
+      <created>1381312593637</created>
+      <updated>1381312593637</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -583,7 +587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="65" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.2682927">
+        <state line="74" column="57" selection-start="3844" selection-end="3844" vertical-scroll-proportion="0.7804878">
           <folding />
         </state>
       </provider>
