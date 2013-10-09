@@ -44,9 +44,9 @@ var app = {
     },
 
     route: function() {
-        alert("window - "+window);
-        alert("window.location - "+window.location);
-        alert("window.location.hash - "+window.location.hash);
+        //alert("window - "+window);
+        //alert("window.location - "+window.location);
+        //alert("window.location.hash - "+window.location.hash);
         var hash = window.location.hash;
         //alert("hash = "+hash);
         if (!hash) {
@@ -115,7 +115,7 @@ var app = {
         */
 
         var self = this;
-        this.detailsURL = /^#employees\/(\d{1,})/;
+        app.detailsURL = /^#employees\/(\d{1,})/;
         self.registerEvents();
         this.store = new MemoryStore(function(){
             //self.showAlert('Store initialized', 'info');
