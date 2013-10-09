@@ -10,6 +10,8 @@
     <content src="index.html" />
     <access origin="*" />
 
+    <gap:plugin name="org.apache.cordova.core.camera" />
+
     <feature name="http://api.phonegap.com/1.0/camera"/>
     <feature name="http://api.phonegap.com/1.0/contacts"/>
     <feature name="http://api.phonegap.com/1.0/file"/>
