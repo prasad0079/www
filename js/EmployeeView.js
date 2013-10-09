@@ -33,6 +33,14 @@ var EmployeeView = function(employee){
         return false;
     };
 
+    this.onSuccess = function(contact) {
+        alert("Save Success");
+    };
+
+    this.onError = function(contactError) {
+        alert("Error = " + contactError.code);
+    };
+
     this.addToContacts = function(event){
         event.preventDefault();
         if(!navigator.contacts){
@@ -45,7 +53,7 @@ var EmployeeView = function(employee){
         phoneNumbers[0] = new ContactField('work', employee.officePhone, false);
         phoneNumbers[1] = new ContactField('home', employee.cellPhone, true);
         contact.phoneNumbers = phoneNumbers;
-        contact.save();
+        contact.save(this.onSuccess, this.onError);
         return false;
     };
 
