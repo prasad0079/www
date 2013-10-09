@@ -20,7 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-        this.bodyInit();
+        //this.bodyInit();
     },
     // Bind Event Listeners
     //
@@ -44,7 +44,9 @@ var app = {
     },
 
     route: function() {
+        alert("called");
         var hash = window.location.hash;
+        alert("hash = "+hash);
         if (!hash) {
             $('body').html(new HomeView(this.store).render().el);
             return;
@@ -59,6 +61,7 @@ var app = {
 
     registerEvents: function(){
         var self = this;
+
         if(document.documentElement.hasOwnProperty('ontouchstart')){
             $('body').on('touchstart', 'a', function(event){
               $(event.target).addClass('tappable-active');
@@ -94,7 +97,7 @@ var app = {
         if(navigator.notification){
             navigator.notification.alert(message, this.alertCallBack, title, 'OK');
         }else{
-            alert(title ? (title + ": " + msg) : msg);
+            //alert(title ? (title + ": " + msg) : msg);
         }
     },
 
@@ -113,6 +116,7 @@ var app = {
         this.detailsURL = /^#employees\/(\d{1,})/;
         self.registerEvents();
         this.store = new MemoryStore(function(){
+            self.showAlert('Store initialized', 'info');
             //self.showAlert('Store initialized', 'info');
             //self.renderHomeView();
 
