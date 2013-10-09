@@ -44,9 +44,9 @@ var app = {
     },
 
     route: function() {
-        alert("called");
+        //alert("called");
         var hash = window.location.hash;
-        alert("hash = "+hash);
+        //alert("hash = "+hash);
         if (!hash) {
             $('body').html(new HomeView(this.store).render().el);
             return;
@@ -97,7 +97,7 @@ var app = {
         if(navigator.notification){
             navigator.notification.alert(message, this.alertCallBack, title, 'OK');
         }else{
-            //alert(title ? (title + ": " + msg) : msg);
+            alert(title ? (title + ": " + msg) : msg);
         }
     },
 
@@ -116,7 +116,6 @@ var app = {
         this.detailsURL = /^#employees\/(\d{1,})/;
         self.registerEvents();
         this.store = new MemoryStore(function(){
-            self.showAlert('Store initialized', 'info');
             //self.showAlert('Store initialized', 'info');
             //self.renderHomeView();
 
